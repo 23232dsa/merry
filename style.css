@@ -1,0 +1,52 @@
+    #active{
+       color:coral;
+   }
+   body{
+       margin:25px;
+   }
+   a{
+       color:powderblue;
+       text-decoration:none;
+   }
+   p{
+       color:darkblue;
+       font-size:10px;
+       text-align:center;
+   }
+   h1{
+       font-size:55px;
+       text-align:center;
+       border-bottom:1px solid wheat;
+       margin:0;
+       padding: 30px;
+   }
+   #grid ol{
+       border-right: 1px solid wheat;
+       width: 100px;
+       margin:0;
+       padding: 25px;
+       padding-right: 1px;
+       padding-left: 26px;
+   }
+   #grid{
+       display: grid;
+       grid-template-columns: 130px 1fr;
+   }
+   #grid #article{
+       padding: 35px;
+   }
+   #fixed{
+        color:darkblue;
+        font-size: 10px;
+        position:fixed;
+        bottom:50px;
+        left:40px;
+   }
+   @media(max-width:600px){
+       h1, #grid ol{
+          border:none;
+       }
+       #grid{
+           display:block;
+       }
+   }
