@@ -20,6 +20,21 @@
        margin:0;
        padding: 30px;
    }
+   #cat1{ color:darkblue;
+    font-size: 10px;
+    position:static;
+    display: inline;
+    bottom:40px;
+    right:150px;
+    border:3px solid coral;
+   }
+   #present{
+        color:coral;
+   }
+   h2{
+        color:darkblue;
+        font-size:55px;
+   }
    #grid ol{
        border-right: 1px solid wheat;
        width: 100px;
